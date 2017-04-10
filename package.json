@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^15.4.2",
+    "react-addons-css-transition-group": "^15.5.2",
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
@@ -18,5 +19,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://katjajohanna.github.io/"
+  "homepage": "https://katjajohanna.github.io/with-icons-to-space/"
 }
