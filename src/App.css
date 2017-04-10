@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 500px) {
+    .App {
+        max-width: 400px;
+    }
+}
+
+.App-inventory {
+  min-height: 150px;
+  padding: 20px;
+  text-align: left;
+}
+
+.iconsContainer {
+    min-height: 150px;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.stopButton {
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: 90%;
+    padding: 5px 20px;
+    background-color: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+
+.stopButton:active {
+    background-color: #EEE;
+}
+
+.stopButton:focus {
+    outline: 0;
+}
+
+.App-instruction {
+    padding: 20px;
+}
+
+.App-inventory div span div {
+    width: 56px;
+    display: inline-block;
+}
+
+.App-combinator img, .App-inventory img {
+    width: 40px;
+    padding: 2px;
+}
+
+.animated {
+    animation: App-icon-rock infinite 2s linear;
+}
+
+@keyframes App-icon-rock {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(-15deg); }
+    80% { transform: rotate(15deg); }
+    100% { transform: rotate(0deg); }
+}
